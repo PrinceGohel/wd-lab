@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+          margin: 0;
+          padding: 0;
+        }
+        body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        height: 100vh;
+      }
+      .container {
+        height: 600px;
+        width: 600px;
+      }
+      section {
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: red;
+        height: 20%;
+        margin-bottom: 5px;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkblue;
+        margin-right: 5px;
+        width: 100px;
+      }
+
+      main {
+        display: flex;
+        justify-content: space-between;
+        background-color: yellow;
+        height: 60%;
+      }
+      footer {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background-color: skyblue;
+        height: 20%;
+        margin-top: 5px;
+      }
+      .sidebar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        height: 98%;
+      }
+      aside {
+        /* text-align: center; */
+        /* display: flex; */
+        /* align-items: center; */
+        background-color: white;
+        width: 20%;
+        height: 75%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>header</header>
+      <main>
+        <nav>Navigation</nav>
+        <section>containt</section>
+        <aside>
+          <div class="sidebar">sidebar</div>
+        </aside>
+      </main>
+      <footer>footer</footer>
+    </div>
+  </body>
+</html>
