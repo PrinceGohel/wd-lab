@@ -3,12 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Lab-8 Part - C Self Try</title>
     <style>
-      * {
-          margin: 0;
-          padding: 0;
-        }
         body {
         display: flex;
         justify-content: center;
@@ -16,49 +12,49 @@
         color: white;
         font-weight: bold;
         text-align: center;
-        height: 100vh;
+        height: 90vh;
       }
       .container {
         height: 600px;
         width: 600px;
       }
       section {
-        color: black;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: black;
       }
       header {
         display: flex;
         justify-content: center;
         align-items: center;
-
         background-color: red;
-        height: 20%;
         margin-bottom: 5px;
+        height: 20%;
       }
       nav {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: darkblue;
-        margin-right: 5px;
-        width: 100px;
+        background-color: white;
+        width: 20%;
       }
-
+      .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: darkblue;
+        width: 100%;
+        margin-right: 5px;
+      }
       main {
         display: flex;
         justify-content: space-between;
         background-color: yellow;
         height: 60%;
       }
-      footer {
-        display: flex;
-        justify-content: center; 
-        align-items: center;
-        background-color: skyblue;
-        height: 20%;
-        margin-top: 5px;
+      aside {
+        background-color: white;
+        width: 20%;
+        height: 75%;
       }
       .sidebar {
         display: flex;
@@ -69,27 +65,27 @@
         margin-left: 5px;
         height: 98%;
       }
-      aside {
-        /* text-align: center; */
-        /* display: flex; */
-        /* align-items: center; */
-        background-color: white;
-        width: 20%;
-        height: 75%;
+      footer {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background-color: skyblue;
+        height: 20%;
+        margin-top: 5px;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <header>header</header>
+      <header>Header</header>
       <main>
-        <nav>Navigation</nav>
-        <section>containt</section>
+        <nav><div class="nav-bar">Navigation</div></nav>
+        <section>Containt</section>
         <aside>
-          <div class="sidebar">sidebar</div>
+          <div class="sidebar">Sidebar</div>
         </aside>
       </main>
-      <footer>footer</footer>
+      <footer>Footer</footer>
     </div>
   </body>
 </html>
